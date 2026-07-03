@@ -8,25 +8,54 @@
 
     padding:18px 38px;
 
+    border-radius:18px;
+
     background:var(--accent);
 
     color:white;
 
     font-weight:600;
 
-    border-radius:16px;
+    transition:var(--transition);
 
-    transition:.35s;
-
-    box-shadow:
-    0 15px 40px rgba(200,169,106,.25);
+    box-shadow:0 15px 35px rgba(200,169,106,.30);
 
 }
 
 .btn:hover{
 
+    background:var(--accent-hover);
+
     transform:translateY(-4px);
 
-    background:var(--accent-hover);
+}
+
+.btn-outline{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:18px 38px;
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    background:white;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.btn-outline:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:var(--shadow);
 
 }

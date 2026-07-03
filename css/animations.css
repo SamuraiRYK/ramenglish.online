@@ -26,6 +26,12 @@ animation:fadeUp .8s ease forwards;
 
 .hero-right{
 
-animation:fadeUp 1s ease forwards;
+animation:fadeUp 1.1s ease forwards;
+
+}
+
+.stat-box{
+
+animation:fadeUp 1.2s ease forwards;
 
 }

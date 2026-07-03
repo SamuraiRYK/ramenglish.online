@@ -1,27 +1,41 @@
-const lessonCard = document.getElementById("lesson-card");
-
-const lessonModal = document.getElementById("lesson-modal");
-
-const closeModal = document.getElementById("close-modal");
+const lessonCard = document.getElementById("lessonCard");
+const lessonModal = document.getElementById("lessonModal");
+const closeModal = document.getElementById("closeModal");
 
 lessonCard.addEventListener("click", () => {
 
     lessonModal.classList.add("active");
 
-});
-
-closeModal.addEventListener("click", () => {
-
-    lessonModal.classList.remove("active");
+    document.body.style.overflow = "hidden";
 
 });
 
-lessonModal.addEventListener("click", (e) => {
+closeModal.addEventListener("click", closeLessonModal);
 
-    if (e.target === lessonModal) {
+lessonModal.addEventListener("click", function(e){
 
-        lessonModal.classList.remove("active");
+    if(e.target===lessonModal){
+
+        closeLessonModal();
 
     }
 
 });
+
+document.addEventListener("keydown", function(e){
+
+    if(e.key==="Escape"){
+
+        closeLessonModal();
+
+    }
+
+});
+
+function closeLessonModal(){
+
+    lessonModal.classList.remove("active");
+
+    document.body.style.overflow="";
+
+}
