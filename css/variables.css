@@ -1,0 +1,33 @@
+/* ==========================================
+   GOOGLE FONTS
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+/* ==========================================
+   COLORS
+========================================== */
+
+:root{
+
+    --bg:#0B0B0F;
+
+    --surface:#141419;
+
+    --surface-light:#1C1C24;
+
+    --gold:#C8A96A;
+
+    --gold-hover:#D6B77A;
+
+    --white:#F5F5F7;
+
+    --gray:#A1A1AA;
+
+    --line:#262630;
+
+    --container:1240px;
+
+    --transition:.35s ease;
+
+}
