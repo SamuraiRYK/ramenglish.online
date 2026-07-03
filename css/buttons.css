@@ -1,57 +1,51 @@
-.button{
+.btn{
 
-    display:inline-flex;
+display:inline-flex;
 
-    align-items:center;
+align-items:center;
 
-    justify-content:center;
+justify-content:center;
 
-    padding:16px 34px;
+padding:16px 34px;
 
-    border-radius:14px;
+background:var(--accent);
 
-    background:var(--gold);
+color:white;
 
-    color:#111;
+border-radius:14px;
 
-    font-weight:700;
+font-weight:600;
 
-    transition:var(--transition);
-
-}
-
-.button:hover{
-
-    background:var(--gold-hover);
-
-    transform:translateY(-3px);
+transition:var(--transition);
 
 }
 
-.button-outline{
+.btn:hover{
 
-    display:inline-flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    padding:16px 34px;
-
-    border:1px solid var(--gold);
-
-    color:var(--gold);
-
-    border-radius:14px;
-
-    transition:var(--transition);
+background:var(--accent-hover);
 
 }
 
-.button-outline:hover{
+.btn-outline{
 
-    background:var(--gold);
+display:inline-flex;
 
-    color:#111;
+align-items:center;
+
+justify-content:center;
+
+padding:16px 34px;
+
+border:1px solid var(--border);
+
+border-radius:14px;
+
+transition:var(--transition);
+
+}
+
+.btn-outline:hover{
+
+background:white;
 
 }

@@ -1,33 +1,25 @@
-/* ==========================================
-   GOOGLE FONTS
-========================================== */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
-
-/* ==========================================
-   COLORS
-========================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root{
 
-    --bg:#0B0B0F;
+--bg:#FAFAF8;
 
-    --surface:#141419;
+--card:#FFFFFF;
 
-    --surface-light:#1C1C24;
+--text:#111827;
 
-    --gold:#C8A96A;
+--text-light:#6B7280;
 
-    --gold-hover:#D6B77A;
+--border:#E5E7EB;
 
-    --white:#F5F5F7;
+--accent:#C8A96A;
 
-    --gray:#A1A1AA;
+--accent-hover:#B89450;
 
-    --line:#262630;
+--container:1240px;
 
-    --container:1240px;
+--radius:20px;
 
-    --transition:.35s ease;
+--transition:.35s ease;
 
 }
