@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<link rel="stylesheet" href="css/modal.css">
 
     <meta charset="UTF-8">
 
@@ -15,8 +16,64 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+<!-- LESSON MODAL -->
 
+<div class="modal" id="lesson-modal">
+
+    <div class="modal-content">
+
+        <button class="close-modal" id="close-modal">
+            ×
+        </button>
+
+        <h2>How was this estimate calculated?</h2>
+
+        <p class="modal-subtitle">
+            Estimated annual teaching volume
+        </p>
+
+        <hr>
+
+        <div class="calc-row">
+            <span>Per day</span>
+            <strong>14 lessons</strong>
+        </div>
+
+        <div class="calc-row">
+            <span>Per week</span>
+            <strong>14 × 7 = 98 lessons</strong>
+        </div>
+
+        <div class="calc-row">
+            <span>Per month</span>
+            <strong>14 × 30.44 ≈ 426 lessons</strong>
+        </div>
+
+        <div class="calc-row">
+            <span>Per year</span>
+            <strong>14 × 365 = 5,110 lessons</strong>
+        </div>
+
+        <hr>
+
+        <p class="modal-text">
+
+            This figure is based on an average of
+            <strong>14 lessons per day</strong> taught
+            consistently throughout the year.
+
+            It illustrates an estimated annual teaching
+            volume of over <strong>5,100 lessons</strong>,
+            reflecting extensive one-to-one teaching
+            experience.
+
+        </p>
+
+    </div>
+
+</div>
 <body>
+    <script src="js/modal.js"></script>
 
     <!-- HEADER -->
 
@@ -109,13 +166,23 @@
 
     <img src="images/profile.png" alt="Ramil">
 
-    <div class="floating-card">
+    <<div class="floating-card" id="lesson-card">
 
-        <div class="floating-icon">
+    <div class="floating-icon">
+        ⭐
+    </div>
 
-            ⭐
+    <div>
 
-        </div>
+        <strong>5,110+</strong>
+
+        <span>Lessons Every Year</span>
+
+    </div>
+
+    <div class="info-icon">ⓘ</div>
+
+</div>
 
         <div>
 
